@@ -5,6 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import 'node_modules/bootstrap-icons/font/bootstrap-icons.css';
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10933,6 +10934,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.dark-mode {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
 .bg-gradient-primary {
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(93, 0, 22) 100%, rgb(0, 212, 255) 100%);
